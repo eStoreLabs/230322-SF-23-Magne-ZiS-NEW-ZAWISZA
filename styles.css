@@ -141,7 +141,7 @@
   font-family: "Bliss-Heavy", sans-serif;
 }
 #es-magne.es-magne .es-kv__text {
-  font-size: 14px;
+  font-size: clamp(1rem, 0.5rem + 2.5vw, 1.75rem);
   text-align: center;
   font-family: "Gilroy-Bold";
   font-weight: 800;
@@ -196,9 +196,7 @@
   max-width: 14px;
 }
 @container (min-width: 425px) {
-  #es-magne.es-magne .es-kv__text {
-    font-size: 18px;
-  }
+
   #es-magne.es-magne .es-kv__label {
     top: 20%;
   }
@@ -214,9 +212,7 @@
   }
 }
 @container (min-width: 576px) {
-  #es-magne.es-magne .es-kv__text {
-    font-size: 20px;
-  }
+
   #es-magne.es-magne .es-kv__icon {
     width: 64px;
     height: 64px;
@@ -273,8 +269,7 @@
   margin-bottom: 8px;
 }
 #es-magne.es-magne .es-features__text {
-  font-family: "Gilroy-SemiBold";
-  font-weight: 600;
+  font-family: "Gilroy-Bold";
   font-size: 16px;
 }
 #es-magne.es-magne .es-features__image {
@@ -285,7 +280,7 @@
 }
 #es-magne.es-magne .es-features__title {
   text-align: center;
-  font-size: 18px;
+  font-size: clamp(1.125rem, 0.4167rem + 3.5417vw, 2.1875rem);
   color: #00bbb4;
   font-family: "Gilroy-SemiBold";
   font-weight: 600;
@@ -297,10 +292,10 @@
   gap: 16px;
   justify-content: center;
 }
-#es-magne.es-magne .es-features__item-2 {
+/* #es-magne.es-magne .es-features__item-2 {
   width: 85%;
   margin: auto;
-}
+} */
 #es-magne.es-magne .es-features__item-2 img {
   margin: 0 auto;
   margin-bottom: 8px;
@@ -310,15 +305,14 @@
   text-align: center;
   font-family: "Gilroy-SemiBold";
   font-weight: 600;
+  font-size: clamp(1.25rem, 0.875rem + 1.875vw, 1.8125rem);
+  text-wrap: balance;
 }
 @container (min-width: 576px) {
   #es-magne.es-magne .es-features__title {
     margin-bottom: 48px;
-    font-size: 24px;
   }
   #es-magne.es-magne .es-features__text {
-    font-family: "Gilroy-SemiBold";
-    font-weight: 600;
     font-size: 20px;
   }
   #es-magne.es-magne .es-features__list {
@@ -332,7 +326,7 @@
     flex-wrap: wrap;
   }
   #es-magne.es-magne .es-features__item-2 {
-    width: calc(50% - 8px);
+    flex-basis: 47%;
   }
   #es-magne.es-magne .es-features__item-2 img {
     max-width: none;
@@ -340,7 +334,6 @@
   #es-magne.es-magne .es-features__text-2 {
     width: 259px;
     margin: auto;
-    font-size: 20px;
   }
 }
 @container (min-width: 768px) {
@@ -350,9 +343,7 @@
   #es-magne.es-magne .es-features__item {
     width: calc(25% - 15px);
   }
-  #es-magne.es-magne .es-features__title {
-    font-size: 35px;
-  }
+
   #es-magne.es-magne .es-features__image {
     position: relative;
     right: -24px;
@@ -389,7 +380,7 @@
 }
 #es-magne.es-magne .es-info__title {
   text-align: center;
-  font-size: 16px;
+  font-size: clamp(1.125rem, 0.4167rem + 3.5417vw, 2.1875rem);
   color: #00bbb4;
   font-family: "Gilroy-SemiBold";
   font-weight: 600;
@@ -414,9 +405,7 @@
   #es-magne.es-magne .es-info__text {
     font-size: 20px;
   }
-  #es-magne.es-magne .es-info__title {
-    font-size: 24px;
-  }
+
   #es-magne.es-magne .es-info__img {
     margin-bottom: -150px;
   }
@@ -444,7 +433,6 @@
     margin-bottom: -95px;
   }
   #es-magne.es-magne .es-info__title {
-    font-size: 35px;
     margin-bottom: 24px;
   }
 }
@@ -568,7 +556,7 @@
 }
 #es-magne.es-magne .es-benefits__title {
   text-align: center;
-  font-size: 16px;
+  font-size: clamp(1.125rem, 0.4167rem + 3.5417vw, 2.1875rem);
   color: #00bbb4;
   font-family: "Gilroy-SemiBold";
   font-weight: 600;
@@ -728,7 +716,6 @@ padding-inline: 10px;
     padding-bottom: calc(6cqi + 32px);
   }
   #es-magne.es-magne .es-benefits__title {
-    font-size: 24px;
     margin-bottom: 32px;
   }
   #es-magne.es-magne .es-benefits__bar {
@@ -786,7 +773,6 @@ padding-inline: 10px;
     padding-bottom: calc(6cqi + 56px);
   }
   #es-magne.es-magne .es-benefits__title {
-    font-size: 35px;
     margin-bottom: 40px;
   }
   #es-magne.es-magne .es-benefits__bar {
