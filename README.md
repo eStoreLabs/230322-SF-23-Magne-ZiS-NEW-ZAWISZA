@@ -3,7 +3,7 @@
 
 ## LIVE SITE LINK
 <!-- please enter link to site preview here -->
-[Live on Netlify](#)
+[Live on Netlify](https://magne-zis-new.netlify.app/)
 
 ## PROJECT PREVIEW
 <!-- ![Design preview for the project](./link) -->
