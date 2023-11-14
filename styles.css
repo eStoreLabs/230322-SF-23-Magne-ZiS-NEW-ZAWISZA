@@ -303,6 +303,11 @@
   font-family: "Gilroy-Bold";
   font-size: clamp(1.25rem, 0.875rem + 1.875vw, 1.8125rem);
 }
+@container (min-width: 380px) {
+  #es-magne.es-magne .es-features__item {
+    max-width: 157px;
+  }
+}
 @container (min-width: 576px) {
   #es-magne.es-magne .es-features__title {
     margin-bottom: 48px;
@@ -930,7 +935,7 @@ padding-inline: 10px;
   margin-right: -16px;
   display: flex;
   justify-content: flex-end;
-  width: 280px;
+  width: 330px;
 }
 #es-magne.es-magne .es-magnez__item {
   margin: 40px 0;
@@ -957,7 +962,7 @@ padding-inline: 10px;
   width: fit-content;
   margin: 0 auto;
   padding: 7px 14px;
-  font-size: clamp(1rem, 0.7083rem + 1.4583vw, 1.4375rem);
+  font-size: clamp(0.75rem, 0.4226rem + 1.6369vw, 1.4375rem);
   font-family: "Gilroy-SemiBold";
   font-weight: 600;
   background: #00bbb4;
