@@ -303,6 +303,9 @@
   font-family: "Gilroy-Bold";
   font-size: clamp(1.25rem, 0.875rem + 1.875vw, 1.8125rem);
 }
+#es-magne.es-magne .es-features__text-2--1 {
+  text-wrap: balance;
+}
 @container (min-width: 380px) {
   #es-magne.es-magne .es-features__item {
     max-width: 157px;
