@@ -295,6 +295,7 @@
   width: 85%;
   margin: auto;
 } */
+
 #es-magne.es-magne .es-features__item-2 img {
   margin: 0 auto;
   margin-bottom: 8px;
@@ -304,7 +305,6 @@
   text-align: center;
   font-family: "Gilroy-Bold";
   font-size: clamp(1.25rem, 0.875rem + 1.875vw, 1.8125rem);
-  text-wrap: balance;
 }
 @container (min-width: 576px) {
   #es-magne.es-magne .es-features__title {
@@ -325,6 +325,9 @@
   }
   #es-magne.es-magne .es-features__item-2 {
     flex-basis: 47%;
+  }
+  #es-magne.es-magne .es-features__item-2:last-of-type {
+    flex-basis: 60%;
   }
   #es-magne.es-magne .es-features__item-2 img {
     max-width: none;
@@ -825,7 +828,6 @@ padding-inline: 10px;
 
 #es-magne.es-magne .es-cross__btn--mobile {
   white-space: nowrap;
-  width: 260px;
   cursor: pointer;
 }
 
