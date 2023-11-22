@@ -831,7 +831,7 @@ padding-inline: 10px;
   font-weight: 600;
   width: fit-content;
   box-shadow: 0 0 0 0 rgb(255, 255, 255);
-  animation: es-pulse2 2s infinite;
+  /* animation: es-pulse2 2s infinite; */
 }
 
 #es-magne.es-magne .es-cross__btn--mobile {
