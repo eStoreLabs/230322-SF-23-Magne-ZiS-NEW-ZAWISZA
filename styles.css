@@ -770,7 +770,7 @@ padding-inline: 10px;
 }
 #es-magne.es-magne .es-cross {
   padding: 40px 16px;
-  background: url(img/bg-cross-mb.webp) repeat center center;
+  background: url(img/bg-cross.webp) no-repeat center center;
   background-size: cover;
   background-position: top;
 }
