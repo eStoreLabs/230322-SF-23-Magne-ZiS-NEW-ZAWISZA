@@ -774,6 +774,9 @@ padding-inline: 10px;
   background-size: cover;
   background-position: top;
 }
+#es-magne.es-magne .es-mobile-hidden {
+  display: none;
+}
 #es-magne.es-magne .es-cross__title {
   font-size: clamp(1rem, -0.9583rem + 9.7917vw, 3.9375rem);
   font-family: "Bliss-Heavy";
@@ -867,23 +870,6 @@ padding-inline: 10px;
   text-align: center;
 }
 
-#es-magne.es-magne #es-cross-expand-toggle {
-  display: none;
-}
-
-#es-magne.es-magne #es-cross-expand-toggle:checked ~ #es-cross__hidden {
-  visibility: visible;
-  height: auto;
-  opacity: 1;
-}
-
-#es-magne.es-magne #es-cross-expand-toggle:checked ~ #es-cross-expand-btn {
-  display: none;
-}
-
-#es-magne.es-magne #es-cross-expand-toggle:checked ~ #es-cross-packshot {
-  display: none;
-}
 
 #es-magne.es-magne .es-cross__hidden {
   visibility: collapse;
@@ -906,6 +892,9 @@ padding-inline: 10px;
     visibility: visible;
     height: auto;
     opacity: 1;
+  }
+  #es-magne.es-magne .es-mobile-hidden {
+    display: block;
   }
   #es-magne.es-magne #es-cross-packshot {
     display: none;

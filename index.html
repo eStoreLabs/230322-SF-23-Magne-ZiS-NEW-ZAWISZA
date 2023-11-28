@@ -255,16 +255,17 @@
 
 
     <div class="es-cross">
+      <div class="es-cross__wrapper">
       <p class="es-cross__title">RODZINA MAGNE B<sub class="es-index">6</sub><sup class="es-index">®</sup></p>
       <p class="es-cross__label">Teraz w nowym opakowaniu</p>
-      <input type="checkbox" id="es-cross-expand-toggle" />
-      <img src="./img/crossNEW.webp" alt="" class="es-cross__img" id="es-cross-packshot" loading="lazy" />
-      <label for="es-cross-expand-toggle" id="es-cross-expand-btn">
-        <div class="es-cross__btn es-cross__btn--mobile">
+      
+      <div id="crossCover" class="es-cross__packshot es-hide">
+        <img src="./img/crossNEW.webp" alt="" class="es-cross__img" id="es-cross-packshot" loading="lazy" />
+        <p id="btnShowCross" class="es-cross__btn es-cross__btn--mobile">
           Poznaj wszystkie produkty
-        </div>
-      </label>
-      <div class="es-cross__hidden" id="es-cross__hidden">
+        </p>
+      </div>
+      <div class="es-cross__ShowCross es-mobile-hidden">
         <p class="es-cross__subtitle">Sprawdź leki bez recepty</p>
         <div class="es-cross__content">
           <div class="es-cross__single">
@@ -291,6 +292,7 @@
             <a href="https://aptekazawiszy.pl/magne-b6-zmeczenie-i-stres-30-tabletek.html" target="_blank" class="es-cross__btn">Sprawdź</a> 
           </div>
         </div>
+      </div>
       </div>
     </div>
 
@@ -393,6 +395,18 @@
       </div>
     </div>
   </div>
+  <script>
+    let btn = document.getElementById('btnShowCross');
+      let content = document.querySelector('.es-cross__ShowCross');
+      let mobileCross = document.getElementById('crossCover');
+
+      showContent = () => {
+        content.style = 'display: block';
+        mobileCross.style = 'display: none';
+      }
+
+      btn.addEventListener('click', showContent);
+  </script>
 </body>
 
 </html>
