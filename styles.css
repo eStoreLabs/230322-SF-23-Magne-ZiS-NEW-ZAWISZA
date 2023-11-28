@@ -264,6 +264,9 @@
 }
 #es-magne.es-magne .es-features__item {
   max-width: 104px;
+  @media (min-width: 360px) {
+    max-width: 135px;
+  }
 }
 #es-magne.es-magne .es-features__item img {
   margin-bottom: 8px;
