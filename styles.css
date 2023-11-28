@@ -1,27 +1,27 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("./fonts/Gilroy-Regular.woff");
+  src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/fonts/Gilroy-Regular.woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gilroy-SemiBold";
-  src: url("./fonts/Gilroy-SemiBold.woff") format("woff");
+  src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/fonts/Gilroy-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gilroy-Bold";
-  src: url("./fonts/Gilroy-Bold.woff") format("woff");
+  src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/fonts/Gilroy-Bold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Bliss-Heavy";
-  src: url("./fonts/Bliss-Heavy.otf") format("opentype");
+  src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/fonts/Bliss-Heavy.otf") format("opentype");
 }
 @keyframes es-pulse {
   0% {
