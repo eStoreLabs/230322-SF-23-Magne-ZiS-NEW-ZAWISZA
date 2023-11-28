@@ -14,4 +14,8 @@
 
 ### DESTINATION (name of e-retailer or general/pure)
 <!-- please enter e-retailers name -->
-Generic
+Apteka Zawiszy
+
+### TODO
+remove html structure!
+
