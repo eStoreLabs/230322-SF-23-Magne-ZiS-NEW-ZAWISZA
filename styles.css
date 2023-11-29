@@ -501,7 +501,7 @@
   color: #fff;
   min-width: 300px;
   width: 100%;
-  font-size: 14px;
+  font-size: clamp(0.875rem, 0.5252rem + 2.0134vw, 1.25rem);
 }
 #es-magne.es-magne .es-hotspots__hotspot {
   position: absolute;
@@ -530,6 +530,16 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+@container (min-width: 390px) {
+  #es-magne.es-magne .es-hotspots__text {
+   min-width: 310px; 
+  }
+}
+@container (min-width: 430px) {
+  #es-magne.es-magne .es-hotspots__text {
+    min-width: 350px;
+  }
 }
 @container (min-width: 576px) {
   #es-magne.es-magne .es-hotspots__content {
@@ -585,6 +595,9 @@
   display: flex;
   align-items: center;
   gap: 24px;
+  @media (min-width: 360px) {
+    max-width: 80%;
+  }
 }
 #es-magne.es-magne .es-benefits__bar:not(:last-child) {
   margin-bottom: 16px;
@@ -942,6 +955,9 @@ padding-inline: 10px;
 }
 #es-magne.es-magne .es-ref span {
   word-break: break-all;
+}
+#es-magne.es-magne .es-ref__text {
+  word-wrap: break-word;
 }
 @container (min-width: 768px) {
   #es-magne.es-magne .es-ref {
