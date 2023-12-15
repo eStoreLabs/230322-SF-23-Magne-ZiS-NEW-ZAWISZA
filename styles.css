@@ -5,6 +5,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Gilroy-SemiBold";
   src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/fonts/Gilroy-SemiBold.woff") format("woff");
@@ -12,6 +13,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Gilroy-Bold";
   src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/fonts/Gilroy-Bold.woff") format("woff");
@@ -19,33 +21,40 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Bliss-Heavy";
   src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/fonts/Bliss-Heavy.otf") format("opentype");
 }
+
 @keyframes es-pulse {
   0% {
     border-radius: 50%;
     box-shadow: 0 0 0 rgba(180, 238, 234, 0.747);
   }
+
   50% {
     border-radius: 50%;
     box-shadow: 0 0 0 0 rgba(71, 196, 190, 0.836);
   }
+
   to {
     border-radius: 50%;
     box-shadow: 0 0 0 15px rgba(220, 241, 241, 0.253);
   }
 }
+
 @keyframes es-pulse2 {
   0% {
     transform: scale(1);
     box-shadow: 0 0 0 rgba(180, 238, 234, 0.747);
   }
+
   70% {
     transform: scale(1.2);
     box-shadow: 0 0 0 15px rgba(220, 241, 241, 0.253);
   }
+
   to {
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(71, 196, 190, 0.836);
@@ -56,23 +65,28 @@
   0% {
     transform: scale(1);
   }
+
   70% {
     transform: scale(1.2);
   }
+
   to {
     transform: scale(1);
   }
 }
+
 @keyframes es-sweep-down {
   0% {
     opacity: 0;
     margin-top: -10px;
   }
+
   100% {
     opacity: 1;
     margin-top: 0px;
   }
 }
+
 #es-magne.es-magne {
   font-family: "Gilroy", sans-serif;
   font-weight: 400;
@@ -86,11 +100,13 @@
   background: #fff;
   container-type: inline-size;
 }
+
 #es-magne.es-magne * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
 #es-magne.es-magne h1,
 #es-magne.es-magne h2,
 #es-magne.es-magne h3,
@@ -108,23 +124,28 @@
   max-width: 100%;
   display: block;
 }
+
 #es-magne.es-magne p #es-magne.es-magne li {
   line-height: inherit;
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
 }
+
 #es-magne.es-magne sup,
 #es-magne.es-magne sub {
   line-height: 0;
   font-size: 60%;
 }
-#es-magne.es-magne details > summary {
+
+#es-magne.es-magne details>summary {
   list-style: none;
 }
-#es-magne.es-magne details > summary::-webkit-details-marker {
+
+#es-magne.es-magne details>summary::-webkit-details-marker {
   display: none;
 }
+
 #es-magne.es-magne .es-kv {
   padding: 20px 16px 16px 16px;
   background: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/img/bg-kv.png") no-repeat center;
@@ -135,6 +156,7 @@
   justify-content: space-between;
   position: relative;
 }
+
 #es-magne.es-magne .es-kv__title {
   font-size: clamp(1.375rem, 0.3143rem + 5.4393vw, 3rem);
   text-align: center;
@@ -142,6 +164,7 @@
   width: max-content;
   margin-inline: auto;
 }
+
 #es-magne.es-magne .es-kv__text {
   font-size: clamp(1rem, 0.5rem + 2.5vw, 1.75rem);
   font-size: clamp(0.8125rem, 0.3105rem + 2.8791vw, 1.75rem);
@@ -150,6 +173,7 @@
   font-weight: 800;
   text-transform: uppercase;
 }
+
 #es-magne.es-magne .es-kv__label {
   font-family: "Bliss-Heavy", sans-serif;
   text-transform: uppercase;
@@ -160,14 +184,17 @@
   top: 25%;
   left: 0;
 }
+
 #es-magne.es-magne .es-kv__items {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #es-magne.es-magne .es-kv__item {
   width: 208px;
 }
+
 #es-magne.es-magne .es-kv__icon {
   margin: 0 auto;
   margin-bottom: 8px;
@@ -181,106 +208,139 @@
   box-shadow: 0 0 0 0 rgb(255, 255, 255);
   animation: es-pulse2 2s infinite;
 }
+
 #es-magne.es-magne .es-kv__icon--2 {
   animation-delay: 0.4s;
 }
+
 #es-magne.es-magne .es-kv__icon--3 {
   animation-delay: 0.8s;
 }
+
 #es-magne.es-magne .es-kv__img {
   margin: 0 auto;
   max-width: 24px;
 }
+
 #es-magne.es-magne .es-kv__plus {
   padding-bottom: 32px;
   min-width: 14px;
 }
+
 #es-magne.es-magne .es-kv__plus img {
   max-width: 14px;
 }
+
 @container (min-width: 425px) {
 
   #es-magne.es-magne .es-kv__label {
     top: 20%;
   }
+
   #es-magne.es-magne .es-kv__icon {
     width: 48px;
     height: 48px;
   }
+
   #es-magne.es-magne .es-kv__img {
     max-width: 32px;
   }
+
   #es-magne.es-magne .es-kv__plus img {
     max-width: 20px;
   }
 }
+
 @container (min-width: 576px) {
 
   #es-magne.es-magne .es-kv__icon {
     width: 64px;
     height: 64px;
   }
+
   #es-magne.es-magne .es-kv__img {
     max-width: 48px;
   }
+
   #es-magne.es-magne .es-kv__plus {
     padding-bottom: 40px;
   }
+
   #es-magne.es-magne .es-kv__plus img {
     max-width: 27px;
   }
 }
+
 @container (min-width: 768px) {
   #es-magne.es-magne .es-kv {
     padding: 42px 60px 32px 60px;
   }
+
   #es-magne.es-magne .es-kv__title {
     font-size: 60px;
   }
+
   #es-magne.es-magne .es-kv__label {
     padding: 0.188rem 2rem;
     top: 23%;
   }
+
   #es-magne.es-magne .es-kv__icon {
     width: 82px;
     height: 82px;
   }
+
   #es-magne.es-magne .es-kv__img {
     max-width: none;
   }
 }
+
 #es-magne.es-magne .es-features {
-  padding: 16px;
+  padding: 10px;
   padding-bottom: 53px;
   background: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/img/bg-features.png") no-repeat center left;
   background-size: cover;
 }
+
 #es-magne.es-magne .es-features__list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 16px 20px;
+  flex-direction: row;
   justify-content: center;
-  margin-bottom: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 32px;
 }
+
 #es-magne.es-magne .es-features__item {
-  max-width: 104px;
-  @media (min-width: 360px) {
-    max-width: 135px;
+  min-width: 120px;
+  width: 45%;
+  max-width: 150px;
+
+  @media (min-width: 576px) {
+    min-width: 155px;
+    width: 23%;
+    max-width: 185px;
   }
 }
+
 #es-magne.es-magne .es-features__item img {
   margin-bottom: 8px;
 }
+
 #es-magne.es-magne .es-features__text {
   font-family: "Gilroy-Bold";
   font-size: 16px;
 }
+
 #es-magne.es-magne .es-features__image {
   padding: 24px 0;
 }
+
 #es-magne.es-magne .es-features__icon {
   animation: es-pulse 2s infinite;
 }
+
 #es-magne.es-magne .es-features__title {
   text-align: center;
   /* font-size: clamp(1.125rem, 0.4167rem + 3.5417vw, 2.1875rem); */
@@ -289,12 +349,14 @@
   font-family: "Gilroy-Bold";
   margin-bottom: 16px;
 }
+
 #es-magne.es-magne .es-features__list-2 {
   display: flex;
   flex-flow: column;
   gap: 16px;
   justify-content: center;
 }
+
 /* #es-magne.es-magne .es-features__item-2 {
   width: 85%;
   margin: auto;
@@ -305,52 +367,51 @@
   margin-bottom: 8px;
   max-width: 70px;
 }
+
 #es-magne.es-magne .es-features__text-2 {
   text-align: center;
   font-family: "Gilroy-Bold";
   font-size: clamp(1.25rem, 0.875rem + 1.875vw, 1.8125rem);
 }
+
 #es-magne.es-magne .es-features__text-2--1 {
   text-wrap: balance;
 }
-@container (min-width: 380px) {
-  #es-magne.es-magne .es-features__item {
-    max-width: 157px;
-  }
-}
+
 @container (min-width: 576px) {
   #es-magne.es-magne .es-features__title {
     margin-bottom: 48px;
   }
+
   #es-magne.es-magne .es-features__text {
     font-size: 20px;
   }
+
   #es-magne.es-magne .es-features__list {
     margin-bottom: 40px;
   }
-  #es-magne.es-magne .es-features__item {
-    max-width: 175px;
-  }
+
   #es-magne.es-magne .es-features__list-2 {
     flex-flow: row;
     flex-wrap: wrap;
   }
+
   #es-magne.es-magne .es-features__item-2 {
     flex-basis: 47%;
   }
+
   #es-magne.es-magne .es-features__item-2:last-of-type {
     flex-basis: 60%;
   }
+
   #es-magne.es-magne .es-features__item-2 img {
     max-width: none;
   }
 }
+
 @container (min-width: 768px) {
   #es-magne.es-magne .es-features {
     background: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/img/bg-features.png") no-repeat center 0%;
-  }
-  #es-magne.es-magne .es-features__item {
-    width: calc(25% - 15px);
   }
 
   #es-magne.es-magne .es-features__image {
@@ -359,10 +420,12 @@
     top: -18px;
   }
 }
+
 #es-magne.es-magne .es-info {
   margin-top: -52px;
   margin-bottom: 16px;
 }
+
 #es-magne.es-magne .es-info__content {
   padding: 16px;
   padding-bottom: 90px;
@@ -375,22 +438,27 @@
   justify-content: center;
   margin-bottom: 16px;
 }
+
 #es-magne.es-magne .es-info__stress {
   padding: 0 16px;
 }
+
 #es-magne.es-magne .es-info__text {
   text-align: center;
   margin-bottom: 16px;
   font-size: clamp(1rem, 0.4583rem + 2.7083vw, 1.8125rem);
 }
+
 #es-magne.es-magne .es-info__text--bold {
   font-family: "Gilroy-Bold";
 }
+
 #es-magne.es-magne .es-info__img {
   max-width: 47%;
   margin-inline: auto;
   margin-bottom: -105px;
 }
+
 #es-magne.es-magne .es-info__title {
   text-align: center;
   font-size: clamp(1.125rem, 0.4167rem + 3.5417vw, 2.1875rem);
@@ -398,56 +466,69 @@
   font-family: "Gilroy-Bold";
   margin-bottom: 16px;
 }
+
 @container (min-width: 355px) {
   #es-magne.es-magne .es-info__img {
     margin-bottom: -128px;
   }
 }
+
 @container (min-width: 440px) {
   #es-magne.es-magne .es-info__img {
     margin-bottom: -140px;
   }
 }
+
 @container (min-width: 524px) {
   #es-magne.es-magne .es-info__img {
     margin-bottom: -192px;
   }
+
   #es-magne.es-magne .es-info__content {
     min-height: 400px;
     padding-bottom: 130px;
   }
 }
+
 @container (min-width: 576px) {
 
   #es-magne.es-magne .es-info__img {
     margin-bottom: -150px;
   }
 }
+
 @container (min-width: 654px) {
   #es-magne.es-magne .es-info__img {
     margin-bottom: -204px;
   }
 }
+
 @container (min-width: 768px) {
   #es-magne.es-magne .es-info {
     margin-bottom: 48px;
   }
+
   #es-magne.es-magne .es-info__content {
     padding: 0px 60px;
   }
+
   #es-magne.es-magne .es-info__stress {
     padding: 16px 60px;
   }
+
   #es-magne.es-magne .es-info__text {
     margin-bottom: 24px;
   }
+
   #es-magne.es-magne .es-info__img {
     margin-bottom: -95px;
   }
+
   #es-magne.es-magne .es-info__title {
     margin-bottom: 24px;
   }
 }
+
 #es-magne.es-magne .es-hotspots {
   position: relative;
   z-index: 1;
@@ -456,10 +537,12 @@
   background: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/img/bg-hotspots.png") no-repeat center bottom;
   background-size: contain;
 }
+
 #es-magne.es-magne .es-hotspots__image {
   margin-bottom: 24px;
   position: relative;
 }
+
 #es-magne.es-magne .es-hotspots__pointer {
   position: absolute;
   top: 0;
@@ -467,26 +550,33 @@
   animation: appear 10s infinite;
   opacity: 0;
 }
+
 #es-magne.es-magne .es-hotspots__pointer--1 {
   animation-delay: 0s;
 }
+
 #es-magne.es-magne .es-hotspots__pointer--2 {
   animation-delay: 2s;
 }
+
 #es-magne.es-magne .es-hotspots__pointer--3 {
   animation-delay: 4s;
 }
+
 #es-magne.es-magne .es-hotspots__pointer--4 {
   animation-delay: 6s;
 }
+
 #es-magne.es-magne .es-hotspots__pointer--5 {
   animation-delay: 8s;
 }
+
 #es-magne.es-magne .es-hotspots__content {
   padding-bottom: 32px;
   position: relative;
   min-height: 102px;
 }
+
 #es-magne.es-magne .es-hotspots__title {
   font-family: "Bliss-Heavy";
   font-size: clamp(1.375rem, 0.3143rem + 5.4393vw, 3rem);
@@ -494,6 +584,7 @@
   margin-bottom: 16px;
   text-transform: uppercase;
 }
+
 #es-magne.es-magne .es-hotspots__text {
   font-family: "Gilroy-SemiBold";
   font-weight: 600;
@@ -503,6 +594,7 @@
   width: 100%;
   font-size: clamp(0.875rem, 0.5252rem + 2.0134vw, 1.25rem);
 }
+
 #es-magne.es-magne .es-hotspots__hotspot {
   position: absolute;
   top: 0;
@@ -511,62 +603,77 @@
   animation: appear 10s infinite;
   opacity: 0;
 }
+
 #es-magne.es-magne .es-hotspots__hotspot--1 {
   animation-delay: 0s;
 }
+
 #es-magne.es-magne .es-hotspots__hotspot--2 {
   animation-delay: 2s;
 }
+
 #es-magne.es-magne .es-hotspots__hotspot--3 {
   animation-delay: 4s;
 }
+
 #es-magne.es-magne .es-hotspots__hotspot--4 {
   animation-delay: 6s;
 }
+
 #es-magne.es-magne .es-hotspots__hotspot--5 {
   animation-delay: 8s;
 }
+
 #es-magne.es-magne .es-hotspots__pointer {
   position: absolute;
   top: 0;
   left: 0;
 }
+
 @container (min-width: 390px) {
   #es-magne.es-magne .es-hotspots__text {
-   min-width: 310px; 
+    min-width: 310px;
   }
 }
+
 @container (min-width: 430px) {
   #es-magne.es-magne .es-hotspots__text {
     min-width: 350px;
   }
 }
+
 @container (min-width: 576px) {
   #es-magne.es-magne .es-hotspots__content {
     padding-bottom: 54px;
     min-height: 132px;
   }
+
   #es-magne.es-magne .es-hotspots__title {
     font-size: 32px;
   }
+
   #es-magne.es-magne .es-hotspots__text {
     font-size: 24px;
     min-width: 500px;
   }
 }
+
 @container (min-width: 768px) {
   #es-magne.es-magne .es-hotspots__content {
     padding-bottom: 72px;
     min-height: 224px;
   }
+
   #es-magne.es-magne .es-hotspots__title {
     font-size: 60px;
   }
+
   #es-magne.es-magne .es-hotspots__text {
     font-size: 35px;
     min-width: 750px;
   }
 }
+
 #es-magne.es-magne .es-benefits {
   padding: 16px;
   padding-top: calc(10cqi + 16px);
@@ -576,6 +683,7 @@
   margin-bottom: -6cqi;
   padding-bottom: calc(6cqi + 16px);
 }
+
 #es-magne.es-magne .es-benefits__title {
   text-align: center;
   /* font-size: clamp(1.125rem, 0.4167rem + 3.5417vw, 2.1875rem); */
@@ -584,6 +692,7 @@
   font-family: "Gilroy-Bold";
   margin-bottom: 24px;
 }
+
 #es-magne.es-magne .es-benefits__bar {
   font-family: "Gilroy-Bold";
   max-width: 95%;
@@ -595,13 +704,16 @@
   display: flex;
   align-items: center;
   gap: 24px;
+
   @media (min-width: 360px) {
     max-width: 80%;
   }
 }
+
 #es-magne.es-magne .es-benefits__bar:not(:last-child) {
   margin-bottom: 16px;
 }
+
 #es-magne.es-magne .es-benefits__icon {
   height: 45px;
   width: 45px;
@@ -612,9 +724,11 @@
   border-radius: 48px;
   margin-left: -2px;
 }
+
 #es-magne.es-magne .es-benefits__img {
   max-width: 50%;
 }
+
 #es-magne.es-magne .es-benefits__button {
   margin: 24px auto;
   background: #001883;
@@ -632,21 +746,26 @@
   cursor: pointer;
   font-size: clamp(1.125rem, 0.4167rem + 3.5417vw, 2.1875rem);
 }
+
 #es-magne.es-magne .es-benefits__chevron {
   max-width: 10px;
 }
+
 #es-magne.es-magne .es-benefits details .es-benefits__chevron {
   transform: rotate(0deg);
   transition: all ease-in 200ms;
 }
+
 #es-magne.es-magne .es-benefits details[open] .es-benefits__chevron {
   transform: rotate(180deg);
   transform-origin: center;
   transition: all ease-in 200ms;
 }
+
 #es-magne.es-magne .es-benefits details[open] .es-benefits__wrapper {
   animation: es-sweep-down 0.2s ease-in-out;
 }
+
 #es-magne.es-magne .es-benefits__wrapper {
   background: #fff;
   border: 2px solid #00bbb4;
@@ -655,51 +774,56 @@
 }
 
 #es-magne.es-magne .es-benefits__table {
-    display: grid;
-    font-family: "Gilroy-SemiBold";
-    font-weight: 600;
-    font-size: 14px;
-    padding-inline: 10px;
-  }
-  
-  #es-magne.es-magne .es-benefits__row {
-    display: grid;
-    grid-template-columns: 5fr 3fr minmax(40px, 1fr);
-    border-bottom: 2px solid #00bbb4;
-    padding-block: 8px;
-  }
-  
-  #es-magne.es-magne .es-benefits__row--borderless {
-    border: none;
-  }
-  
-  #es-magne.es-magne .es-benefits__name {
-    text-align: left;
-    color: #00bbb4;
-    font-family: "Gilroy-SemiBold";
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  #es-magne.es-magne .es-benefits--mid {
-    padding-right: 10px;
-    text-align: right;
-  }
-  #es-magne.es-magne .es-benefits--right {
-    text-align: right;
-  }
-  #es-magne.es-magne .es-benefits__desc {
-    font-family: "Gilroy-SemiBold";
-    font-weight: 600;
-    font-size: 13px;
-    margin-top: 10px;
-  }
+  display: grid;
+  font-family: "Gilroy-SemiBold";
+  font-weight: 600;
+  font-size: 14px;
+  padding-inline: 10px;
+}
+
+#es-magne.es-magne .es-benefits__row {
+  display: grid;
+  grid-template-columns: 5fr 3fr minmax(40px, 1fr);
+  border-bottom: 2px solid #00bbb4;
+  padding-block: 8px;
+}
+
+#es-magne.es-magne .es-benefits__row--borderless {
+  border: none;
+}
+
+#es-magne.es-magne .es-benefits__name {
+  text-align: left;
+  color: #00bbb4;
+  font-family: "Gilroy-SemiBold";
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#es-magne.es-magne .es-benefits--mid {
+  padding-right: 10px;
+  text-align: right;
+}
+
+#es-magne.es-magne .es-benefits--right {
+  text-align: right;
+}
+
+#es-magne.es-magne .es-benefits__desc {
+  font-family: "Gilroy-SemiBold";
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
 #es-magne.es-magne .es-benefits__disc {
   font-family: "Gilroy-SemiBold";
   font-weight: 600;
   font-size: 13px;
-padding-inline: 10px;
+  padding-inline: 10px;
   color: #00bbb4;
 }
+
 @container (min-width: 576px) {
   #es-magne.es-magne .es-benefits {
     padding: 16px 60px;
@@ -707,9 +831,11 @@ padding-inline: 10px;
     margin-bottom: -6cqi;
     padding-bottom: calc(6cqi + 32px);
   }
+
   #es-magne.es-magne .es-benefits__title {
     margin-bottom: 32px;
   }
+
   #es-magne.es-magne .es-benefits__bar {
     font-size: 29px;
     max-width: 500px;
@@ -727,29 +853,37 @@ padding-inline: 10px;
     border: 2px solid #001883;
     border-radius: 48px;
   }
+
   #es-magne.es-magne .es-benefits__img {
     max-width: none;
   }
+
   #es-magne.es-magne .es-benefits__table {
     font-size: 20px;
-    
+
   }
+
   #es-magne.es-magne .es-benefits__wrapper {
     border-radius: 32px;
   }
+
   #es-magne.es-magne .es-benefits__row {
     grid-template-columns: 6fr 2.5fr 1fr;
     padding-block: 13px;
   }
+
   #es-magne.es-magne .es-benefits--mid {
     padding-right: 16px;
   }
+
   #es-magne.es-magne .es-benefits__desc {
     font-size: 16px;
   }
+
   #es-magne.es-magne .es-benefits__disc {
     font-size: 16px;
   }
+
   #es-magne.es-magne .es-benefits__button {
     /* font-size: 20px; */
     /* border-radius: 35px; */
@@ -758,56 +892,69 @@ padding-inline: 10px;
     gap: 24px;
     margin: 42px auto 24px auto;
   }
+
   #es-magne.es-magne .es-benefits__chevron {
     max-width: 18px;
   }
 }
+
 @container (min-width: 768px) {
   #es-magne.es-magne .es-benefits {
     margin-bottom: -10cqi;
     padding-bottom: calc(6cqi + 56px);
   }
+
   #es-magne.es-magne .es-benefits__title {
     margin-bottom: 40px;
   }
+
   #es-magne.es-magne .es-benefits__bar {
     max-width: 490px;
     height: 100px;
   }
+
   #es-magne.es-magne .es-benefits__bar:not(:last-child) {
     margin-bottom: 24px;
   }
+
   #es-magne.es-magne .es-benefits__icon {
     height: 100px;
     width: 100px;
   }
+
   #es-magne.es-magne .es-benefits__table {
     font-size: 23px;
     padding-inline: 32px
   }
+
   #es-magne.es-magne .es-benefits--mid {
     padding-right: 20px;
   }
+
   #es-magne.es-magne .es-benefits__disc {
     padding-inline: 32px;
     margin-top: 16px;
   }
 }
+
 #es-magne.es-magne .es-cross {
   padding: 40px 16px;
   background: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-ZiS-NEW-ZAWISZA/img/bg-cross.png") no-repeat center center;
   background-size: cover;
   background-position: top;
 }
+
 #es-magne.es-magne .es-mobile-hidden {
   display: none;
 }
+
 #es-magne.es-magne .es-cross__title {
   font-size: clamp(1rem, -0.9583rem + 9.7917vw, 3.9375rem);
   font-family: "Bliss-Heavy";
   text-align: center;
   text-transform: uppercase;
 }
+
 #es-magne.es-magne .es-cross__label {
   font-family: "Bliss-Heavy", sans-serif;
   text-transform: uppercase;
@@ -832,10 +979,12 @@ padding-inline: 10px;
   margin-top: 16px;
   font-size: clamp(1.125rem, 0.4167rem + 3.5417vw, 2.1875rem);
 }
+
 #es-magne.es-magne #es-cross-packshot {
   margin-bottom: 32px;
   max-width: 70%;
 }
+
 #es-magne.es-magne .es-cross__img {
   margin: 0 auto;
   max-width: 100%;
@@ -882,9 +1031,11 @@ padding-inline: 10px;
   align-items: center;
   flex-flow: column;
 }
+
 #es-magne.es-magne .es-cross__single:nth-of-type(2) {
   margin-left: -8px;
 }
+
 #es-magne.es-magne .es-cross__name {
   margin: 24px 0;
   padding: 0;
@@ -909,24 +1060,30 @@ padding-inline: 10px;
     flex-wrap: wrap;
     align-items: flex-end;
   }
+
   #es-magne.es-magne .es-cross__btn--mobile {
     display: none;
   }
+
   #es-magne.es-magne .es-cross__hidden {
     display: block;
     visibility: visible;
     height: auto;
     opacity: 1;
   }
+
   #es-magne.es-magne .es-mobile-hidden {
     display: block;
   }
+
   #es-magne.es-magne #es-cross-packshot {
     display: none;
   }
+
   #es-magne.es-magne .es-cross__single {
     width: 230px;
   }
+
   #es-magne.es-magne .es-cross__single--alone {
     width: unset;
   }
@@ -936,35 +1093,43 @@ padding-inline: 10px;
   margin-bottom: 32px;
   padding: 0 16px;
 }
+
 #es-magne.es-magne .es-disclaimer__text {
   margin-bottom: 16px;
   margin-bottom: 32px;
   font-family: "Gilroy";
 }
+
 #es-magne.es-magne .es-disclaimer__text--strong {
   font-family: "Gilroy-Bold";
 }
+
 @container (min-width: 768px) {
   #es-magne.es-magne .es-disclaimer {
     padding: 0 60px;
     justify-content: space-between;
   }
 }
+
 #es-magne.es-magne .es-ref {
   padding: 0 16px;
 }
+
 #es-magne.es-magne .es-ref span {
   word-break: break-all;
 }
+
 #es-magne.es-magne .es-ref__text {
   word-wrap: break-word;
 }
+
 @container (min-width: 768px) {
   #es-magne.es-magne .es-ref {
     padding: 0 60px;
     justify-content: space-between;
   }
 }
+
 #es-magne.es-magne .es-logo {
   padding: 32px 16px;
   display: flex;
@@ -973,9 +1138,11 @@ padding-inline: 10px;
   flex-wrap: wrap;
   row-gap: 32px;
 }
+
 #es-magne.es-magne .es-logo__image--big {
   max-width: 25%;
 }
+
 @container (min-width: 768px) {
   #es-magne.es-magne .es-logo {
     padding: 32px 60px;
@@ -987,34 +1154,43 @@ padding-inline: 10px;
   0% {
     box-shadow: 0 0 0px 0 rgba(255, 255, 255, 0.7);
   }
+
   25% {
     box-shadow: 0 0 15px 15px rgba(255, 255, 255, 0);
   }
+
   40% {
     box-shadow: 0 0 0px 0 rgba(255, 255, 255, 0);
   }
 }
+
 @keyframes pulse-button {
   0% {
     box-shadow: 0 0 0px 0 rgba(255, 255, 255, 0.7);
   }
+
   70% {
     box-shadow: 0 0 12px 12px rgba(255, 255, 255, 0);
   }
+
   100% {
     box-shadow: 0 0 0px 0 rgba(255, 255, 255, 0);
   }
 }
+
 @keyframes appear {
   0% {
     opacity: 1;
   }
+
   20% {
     opacity: 1;
   }
+
   22% {
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
