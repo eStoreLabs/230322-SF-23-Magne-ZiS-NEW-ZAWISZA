@@ -166,12 +166,18 @@
 }
 
 #es-magne.es-magne .es-kv__text {
-  font-size: clamp(1rem, 0.5rem + 2.5vw, 1.75rem);
+  /* font-size: clamp(1rem, 0.5rem + 2.5vw, 1.75rem); */
   font-size: clamp(0.8125rem, 0.3105rem + 2.8791vw, 1.75rem);
   text-align: center;
   font-family: "Gilroy-Bold";
   font-weight: 800;
   text-transform: uppercase;
+}
+
+@media (max-width: 375px) {
+  #es-magne.es-magne .es-kv__text {
+    font-size: 14.5px;
+  }
 }
 
 #es-magne.es-magne .es-kv__label {
